@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Orangehrm.testautomation">
+      <class name="Task1.Task3automation">
         <methods>
-          <include name="searchAppleIphone16Plus"/>
-          <include name="setup"/>
+          <include name="MouseHoverTest"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Orangehrm.testautomation -->
+      </class> <!-- Task1.Task3automation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
