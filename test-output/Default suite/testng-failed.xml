@@ -5,9 +5,9 @@
     <classes>
       <class name="Task1.Task3automation">
         <methods>
-          <include name="MouseHoverTest"/>
-          <include name="tearDown"/>
           <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="MouseHoverTest"/>
         </methods>
       </class> <!-- Task1.Task3automation -->
     </classes>

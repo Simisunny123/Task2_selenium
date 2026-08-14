@@ -1,36 +1,23 @@
 package Task1;
-
+import base.BaseTest;
 import java.time.Duration;
 import java.util.Set;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import base.BaseTest;
+import base.BaseTest;
+public class Task3automation extends BaseTest {
 
-public class Task3automation {
 
-	WebDriver driver;
-
-	@BeforeClass
-	public void setup() {
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get(" https://rahulshettyacademy.com/AutomationPractice/?");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	}
-
+	
 	@Test(priority = 1)
 	public void Radiobuttontest() {
 		WebElement Radio1 = driver.findElement(By.xpath("//input[@value='radio1']"));
@@ -224,8 +211,5 @@ public class Task3automation {
 		System.out.println("Returned to main page");
 	}
 
-	@AfterClass
-	public void tearDown() {
-		driver.quit();
-	}
+	
 }
