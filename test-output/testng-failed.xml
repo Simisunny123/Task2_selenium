@@ -3,13 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Task1.Task3automation">
+      <class name="Tests.AutomationPracticeTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="MouseHoverTest"/>
+          <include name="switchTab"/>
+          <include name="selectOption1"/>
+          <include name="checkboxSelection"/>
+          <include name="radioButtonTest"/>
+          <include name="mouseHoverTest"/>
+          <include name="iframeTest"/>
+          <include name="initializePage"/>
+          <include name="alertHandling"/>
+          <include name="switchWindow"/>
         </methods>
-      </class> <!-- Task1.Task3automation -->
+      </class> <!-- Tests.AutomationPracticeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

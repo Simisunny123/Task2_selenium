@@ -1,95 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-14T16:37:11 IST" name="Default suite" finished-at="2026-08-14T16:38:24 IST" duration-ms="72228">
+  <suite started-at="2026-08-20T16:11:19 IST" name="Default suite" finished-at="2026-08-20T16:11:26 IST" duration-ms="6124">
     <groups>
     </groups>
-    <test started-at="2026-08-14T16:37:11 IST" name="Default test" finished-at="2026-08-14T16:38:24 IST" duration-ms="72228">
-      <class name="Task1.Task3automation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Task1.Task3automation@7c6908d7]" started-at="2026-08-14T16:37:11 IST" name="setup" finished-at="2026-08-14T16:37:31 IST" duration-ms="19168" status="PASS">
+    <test started-at="2026-08-20T16:11:19 IST" name="Default test" finished-at="2026-08-20T16:11:26 IST" duration-ms="6124">
+      <class name="Tests.FlipkartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.FlipkartTest@6a6cb05c]" started-at="2026-08-20T16:11:19 IST" name="setup" finished-at="2026-08-20T16:11:21 IST" duration-ms="1213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Radiobuttontest()[pri:1, instance:Task1.Task3automation@7c6908d7]" started-at="2026-08-14T16:37:31 IST" name="Radiobuttontest" finished-at="2026-08-14T16:37:31 IST" duration-ms="441" status="PASS">
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:Tests.FlipkartTest@6a6cb05c]" started-at="2026-08-20T16:11:21 IST" name="initializePage" finished-at="2026-08-20T16:11:22 IST" duration-ms="1582" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Radiobuttontest -->
-        <test-method signature="selectOption1()[pri:2, instance:Task1.Task3automation@7c6908d7]" started-at="2026-08-14T16:37:31 IST" name="selectOption1" finished-at="2026-08-14T16:37:31 IST" duration-ms="284" status="PASS">
+        </test-method> <!-- initializePage -->
+        <test-method signature="searchAppleIphone16Plus()[pri:0, instance:Tests.FlipkartTest@6a6cb05c]" started-at="2026-08-20T16:11:22 IST" name="searchAppleIphone16Plus" finished-at="2026-08-20T16:11:25 IST" duration-ms="3047" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectOption1 -->
-        <test-method signature="checkboxselection()[pri:3, instance:Task1.Task3automation@7c6908d7]" started-at="2026-08-14T16:37:31 IST" name="checkboxselection" finished-at="2026-08-14T16:37:32 IST" duration-ms="346" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkboxselection -->
-        <test-method signature="SwitchWindow()[pri:4, instance:Task1.Task3automation@7c6908d7]" started-at="2026-08-14T16:37:32 IST" name="SwitchWindow" finished-at="2026-08-14T16:37:35 IST" duration-ms="3526" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SwitchWindow -->
-        <test-method signature="SwitchTab()[pri:5, instance:Task1.Task3automation@7c6908d7]" started-at="2026-08-14T16:37:35 IST" name="SwitchTab" finished-at="2026-08-14T16:37:39 IST" duration-ms="3900" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SwitchTab -->
-        <test-method signature="alert_Handling()[pri:6, instance:Task1.Task3automation@7c6908d7]" started-at="2026-08-14T16:37:39 IST" name="alert_Handling" finished-at="2026-08-14T16:37:40 IST" duration-ms="698" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- alert_Handling -->
-        <test-method signature="MouseHoverTest()[pri:7, instance:Task1.Task3automation@7c6908d7]" started-at="2026-08-14T16:37:40 IST" name="MouseHoverTest" finished-at="2026-08-14T16:38:02 IST" duration-ms="21671" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at Task1.Task3automation.MouseHoverTest(Task3automation.java:177)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MouseHoverTest -->
-        <test-method signature="IframeTest()[pri:8, instance:Task1.Task3automation@7c6908d7]" started-at="2026-08-14T16:38:02 IST" name="IframeTest" finished-at="2026-08-14T16:38:23 IST" duration-ms="21520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IframeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Task1.Task3automation@7c6908d7]" started-at="2026-08-14T16:38:23 IST" name="tearDown" finished-at="2026-08-14T16:38:24 IST" duration-ms="540" status="PASS">
+        </test-method> <!-- searchAppleIphone16Plus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.FlipkartTest@6a6cb05c]" started-at="2026-08-20T16:11:25 IST" name="tearDown" finished-at="2026-08-20T16:11:26 IST" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Task1.Task3automation -->
+      </class> <!-- Tests.FlipkartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

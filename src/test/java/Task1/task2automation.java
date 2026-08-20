@@ -19,9 +19,6 @@ public class task2automation {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
 		
-		// 2. Explicit Wait
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 
