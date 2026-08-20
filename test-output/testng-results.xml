@@ -1,29 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-20T16:11:19 IST" name="Default suite" finished-at="2026-08-20T16:11:26 IST" duration-ms="6124">
+  <suite started-at="2026-08-20T17:00:07 IST" name="Default suite" finished-at="2026-08-20T17:01:27 IST" duration-ms="79750">
     <groups>
     </groups>
-    <test started-at="2026-08-20T16:11:19 IST" name="Default test" finished-at="2026-08-20T16:11:26 IST" duration-ms="6124">
-      <class name="Tests.FlipkartTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.FlipkartTest@6a6cb05c]" started-at="2026-08-20T16:11:19 IST" name="setup" finished-at="2026-08-20T16:11:21 IST" duration-ms="1213" status="PASS">
+    <test started-at="2026-08-20T17:00:07 IST" name="Default test" finished-at="2026-08-20T17:01:27 IST" duration-ms="79750">
+      <class name="Tests.AutomationPracticeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:08 IST" name="setup" finished-at="2026-08-20T17:00:09 IST" duration-ms="1169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initializePage()[pri:0, instance:Tests.FlipkartTest@6a6cb05c]" started-at="2026-08-20T16:11:21 IST" name="initializePage" finished-at="2026-08-20T16:11:22 IST" duration-ms="1582" status="PASS">
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:09 IST" name="initializePage" finished-at="2026-08-20T17:00:12 IST" duration-ms="3145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializePage -->
-        <test-method signature="searchAppleIphone16Plus()[pri:0, instance:Tests.FlipkartTest@6a6cb05c]" started-at="2026-08-20T16:11:22 IST" name="searchAppleIphone16Plus" finished-at="2026-08-20T16:11:25 IST" duration-ms="3047" status="PASS">
+        <test-method signature="radioButtonTest()[pri:1, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:12 IST" name="radioButtonTest" finished-at="2026-08-20T17:00:12 IST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchAppleIphone16Plus -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.FlipkartTest@6a6cb05c]" started-at="2026-08-20T16:11:25 IST" name="tearDown" finished-at="2026-08-20T16:11:26 IST" duration-ms="238" status="PASS">
+        </test-method> <!-- radioButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:12 IST" name="tearDown" finished-at="2026-08-20T17:00:12 IST" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Tests.FlipkartTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:12 IST" name="setup" finished-at="2026-08-20T17:00:13 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:13 IST" name="initializePage" finished-at="2026-08-20T17:00:16 IST" duration-ms="3487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="selectOption1()[pri:2, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:16 IST" name="selectOption1" finished-at="2026-08-20T17:00:17 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectOption1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:17 IST" name="tearDown" finished-at="2026-08-20T17:00:17 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:17 IST" name="setup" finished-at="2026-08-20T17:00:18 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:18 IST" name="initializePage" finished-at="2026-08-20T17:00:21 IST" duration-ms="3428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="checkboxSelection()[pri:3, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:21 IST" name="checkboxSelection" finished-at="2026-08-20T17:00:22 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:22 IST" name="tearDown" finished-at="2026-08-20T17:00:22 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:22 IST" name="setup" finished-at="2026-08-20T17:00:23 IST" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:23 IST" name="initializePage" finished-at="2026-08-20T17:00:26 IST" duration-ms="3808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="switchWindow()[pri:4, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:26 IST" name="switchWindow" finished-at="2026-08-20T17:00:33 IST" duration-ms="6363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWindow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:33 IST" name="tearDown" finished-at="2026-08-20T17:00:33 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:33 IST" name="setup" finished-at="2026-08-20T17:00:34 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:34 IST" name="initializePage" finished-at="2026-08-20T17:00:37 IST" duration-ms="3377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="switchTab()[pri:5, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:37 IST" name="switchTab" finished-at="2026-08-20T17:00:39 IST" duration-ms="2277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:39 IST" name="tearDown" finished-at="2026-08-20T17:00:40 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:40 IST" name="setup" finished-at="2026-08-20T17:00:40 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:40 IST" name="initializePage" finished-at="2026-08-20T17:00:43 IST" duration-ms="2956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="alertHandling()[pri:6, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:43 IST" name="alertHandling" finished-at="2026-08-20T17:00:44 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertHandling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:44 IST" name="tearDown" finished-at="2026-08-20T17:00:44 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:44 IST" name="setup" finished-at="2026-08-20T17:00:45 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:45 IST" name="initializePage" finished-at="2026-08-20T17:00:48 IST" duration-ms="3625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="mouseHoverTest()[pri:7, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:00:48 IST" name="mouseHoverTest" finished-at="2026-08-20T17:01:04 IST" duration-ms="15909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:01:04 IST" name="tearDown" finished-at="2026-08-20T17:01:04 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:01:04 IST" name="setup" finished-at="2026-08-20T17:01:05 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:01:05 IST" name="initializePage" finished-at="2026-08-20T17:01:09 IST" duration-ms="3408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="iframeTest()[pri:8, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:01:09 IST" name="iframeTest" finished-at="2026-08-20T17:01:27 IST" duration-ms="18418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@7586beff]" started-at="2026-08-20T17:01:27 IST" name="tearDown" finished-at="2026-08-20T17:01:27 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.AutomationPracticeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
