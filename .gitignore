@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 target/
 downloads/
 test-output/
@@ -6,3 +7,6 @@ screenshots/
 .project
 .settings/
 *.class
+=======
+/target/
+>>>>>>> 9295e37d95bde710e681260291af585b2acb968a
