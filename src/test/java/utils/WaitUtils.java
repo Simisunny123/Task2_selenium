@@ -10,13 +10,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WaitUtils {
 
-    private WebDriver driver;
     private WebDriverWait wait;
 
     public WaitUtils(WebDriver driver) {
-
-        this.driver = driver;
-
         wait = new WebDriverWait(
                 driver,
                 Duration.ofSeconds(15)
@@ -24,28 +20,24 @@ public class WaitUtils {
     }
 
     public WebElement waitForElement(By locator) {
-
         return wait.until(
                 ExpectedConditions.visibilityOfElementLocated(locator)
         );
     }
 
     public WebElement waitForClickable(By locator) {
-
         return wait.until(
                 ExpectedConditions.elementToBeClickable(locator)
         );
     }
 
     public void waitForUrl(String url) {
-
         wait.until(
                 ExpectedConditions.urlContains(url)
         );
     }
 
     public void waitForInvisibility(By locator) {
-
         wait.until(
                 ExpectedConditions.invisibilityOfElementLocated(locator)
         );

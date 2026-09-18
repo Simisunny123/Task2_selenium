@@ -20,6 +20,12 @@ public class BaseTest {
 
         String browser = ConfigReader.getProperty("browser");
 
+        if (browser == null || browser.isEmpty()) {
+            throw new RuntimeException(
+                    "Browser is not specified in config.properties"
+            );
+        }
+
         if (browser.equalsIgnoreCase("chrome")) {
 
             driver = new ChromeDriver();
@@ -35,14 +41,22 @@ public class BaseTest {
         } else {
 
             throw new RuntimeException(
-                "Invalid browser: " + browser
+                    "Invalid browser: " + browser
             );
         }
 
+        // Browser window
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-        driver.get("https://rahulshettyacademy.com/client");
+        // Implicit wait
+        driver.manage().timeouts().implicitlyWait(
+                Duration.ofSeconds(5)
+        );
+
+        // Launch application
+        driver.get(
+                "https://rahulshettyacademy.com/client"
+        );
     }
 
     @AfterMethod

@@ -1,12 +1,21 @@
-<<<<<<< HEAD
+# Maven
 target/
-downloads/
-test-output/
-screenshots/
+
+# Eclipse
 .classpath
 .project
 .settings/
-*.class
-=======
-/target/
->>>>>>> 9295e37d95bde710e681260291af585b2acb968a
+
+# TestNG / test reports
+test-output/
+surefire-reports/
+
+# Local configuration
+src/test/resources/config.properties
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
