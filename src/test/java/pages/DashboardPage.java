@@ -1,7 +1,7 @@
 package pages;
 
 import java.time.Duration;
-import java.util.List;
+//import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -28,26 +28,71 @@ public class DashboardPage {
     // Add product
     public void addProduct(int index) {
 
-        // Wait for loading spinner to disappear
+        // Wait for spinner to disappear
         wait.until(ExpectedConditions.invisibilityOfElementLocated(spinner));
 
-        // Get all Add to Cart buttons
-        List<WebElement> buttons =
+        // Wait until buttons are present
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(addToCartButtons));
+
+        // Get buttons
+        java.util.List<WebElement> buttons =
                 driver.findElements(addToCartButtons);
 
-        // Click required product
-        buttons.get(index).click();
+        if (index >= buttons.size()) {
+            throw new RuntimeException(
+                    "Invalid product index: " + index +
+                    ". Available buttons: " + buttons.size()
+            );
+        }
 
-        // Wait for spinner after clicking
+        WebElement button = buttons.get(index);
+
+        // Scroll into view
+        ((org.openqa.selenium.JavascriptExecutor) driver)
+                .executeScript(
+                        "arguments[0].scrollIntoView({block: 'center'});",
+                        button
+                );
+
+        // Wait for spinner again
         wait.until(ExpectedConditions.invisibilityOfElementLocated(spinner));
+
+        // Wait until the exact button is clickable
+        wait.until(ExpectedConditions.elementToBeClickable(button));
+
+        // Click
+        button.click();
+
+        // Wait for post-click loading to finish
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(spinner));
+    
     }
 
-    // Open cart
     public void openCart() {
 
+        // Wait for spinner to disappear
         wait.until(ExpectedConditions.invisibilityOfElementLocated(spinner));
 
-        wait.until(ExpectedConditions.elementToBeClickable(cartButton))
-            .click();
+        // Wait until Cart button is clickable
+        WebElement cart = wait.until(
+                ExpectedConditions.elementToBeClickable(cartButton)
+        );
+
+        // Scroll Cart button into view
+        ((org.openqa.selenium.JavascriptExecutor) driver)
+                .executeScript(
+                        "arguments[0].scrollIntoView({block: 'center'});",
+                        cart
+                );
+
+        // Wait for spinner again
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(spinner));
+
+        // Click Cart
+        cart.click();
+
+        // Wait until Cart page is loaded
+        wait.until(ExpectedConditions.urlContains("/dashboard/cart"));
     }
-}
+		
+	}
